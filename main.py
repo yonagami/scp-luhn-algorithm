@@ -10,7 +10,7 @@ def verify_card_number(card_number):
     for digit in even_digits:
         number = int(digit) * 2
         if number >= 10:
-            print(number)
+            number =  number // 10 +  number % 10
 
 
 def main():
