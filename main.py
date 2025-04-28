@@ -6,6 +6,6 @@ def main():
 
 
 
-
+main()
 
 
